@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36811.4 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OllamaMcpProject", "OllamaMcpProject\OllamaMcpProject.csproj", "{CDB44A5D-41C0-4F6F-A468-259F7C8A3F52}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OllamaMcp_Client", "OllamaMcp_Client\OllamaMcp_Client.csproj", "{59E667F4-ACA1-42A3-9AA1-88A0B4E9B773}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CDB44A5D-41C0-4F6F-A468-259F7C8A3F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDB44A5D-41C0-4F6F-A468-259F7C8A3F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDB44A5D-41C0-4F6F-A468-259F7C8A3F52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59E667F4-ACA1-42A3-9AA1-88A0B4E9B773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59E667F4-ACA1-42A3-9AA1-88A0B4E9B773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59E667F4-ACA1-42A3-9AA1-88A0B4E9B773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59E667F4-ACA1-42A3-9AA1-88A0B4E9B773}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
