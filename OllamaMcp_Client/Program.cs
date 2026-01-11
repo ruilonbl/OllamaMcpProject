@@ -22,7 +22,7 @@ public class Program
         var transport = new StdioClientTransport(new()
         {
             Command = "dotnet",
-            Arguments = ["run", "--project", @"C:\Users\ruilo\OneDrive\Documentos\Porjetos\OllamaMcpProject\OllamaMcpProject"]
+            Arguments = ["run", "--project", @"your-mcp-server-url"] // Substitua pelo URL do seu MCP Server
         });
 
         McpClient mcpClient = await McpClient.CreateAsync(transport);
